@@ -97,4 +97,7 @@ public class Product {
         }
 
     }
+     public void displayData() {
+        System.out.println("ID: " + productId + ", Name: " + productName + ", Price: " + price + ", Quantity: " + quantity + ", Category: " + category);
+    }
 }
